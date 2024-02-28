@@ -1,0 +1,73 @@
+
+.header{
+    width: 100%;
+    z-index: 100;
+    
+}
+.header.fixed{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.header.fixed section{
+    background: rgba(104, 109, 224, 1);
+
+}
+.header-logo{
+    width: 249.85px;
+    height: 120px;
+    margin-top: 30px;
+}
+.header-row{
+   display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+}
+.img-gl{
+ position: absolute;
+ padding: 0 0 0 0;
+margin-left: 807px;
+width: 711px;
+height: 1573px;
+}
+.header-nav{
+    height: 32px;
+    margin-top: 44px;
+font-family: Girloy medium;
+color: #FFFFFF;
+align-items: left;
+
+}
+.header-nav ul{
+    display: flex;
+}
+.header-nav li{
+    margin-right: 120px;  
+    text-decoration: none;
+    background-image: linear-gradient( #686DE0, #686DE0);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.header-nav li:hover{
+    background-size: 100% 2px;
+}
+.header-nav li:last-child{
+    margin-right: 0px;
+}
+.icons-row{
+margin-top: 43.5px;
+}
+.icons2{
+width: 32px;
+height: 32px;
+margin-left: 40px;
+}
+.icons1{
+    width: 32px;
+    height: 32px;
+}
+

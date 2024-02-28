@@ -1,0 +1,108 @@
+.footer {
+    background: rgba(44, 44, 84, 1);
+}
+.footer-text {
+    width: 757px;
+    height: 96px;
+    margin-top: 60px;
+    margin-left: 122px;
+    font-family: Girloy medium;
+    font-size: 25px;
+    line-height: 32.5px;
+    color: #FFFFFF; 
+}
+.footer-text1 {
+    width: 699px;
+    height: 21px;
+    margin-top: 60px;
+    margin-left: 122px;
+    font-family: Girloy medium;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: rgba(91, 91, 91, 1);  
+}
+span{
+color:rgba(104, 109, 224, 1);
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.footer-logo {
+    width: 250px;
+    height: 120px;
+    margin-top: 80px;
+    margin-left: 122px;
+}
+.footer-nav li {
+    margin-right: 122px;  
+    text-decoration: none;
+    background-image: linear-gradient( #686DE0, #686DE0);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.footer-nav li:hover{
+    background-size: 100% 2px;
+}
+.footer-nav{
+    height: 32px;
+    font-size: 25px;
+    line-height: 29.3px;
+    margin-top: 85px;
+font-family: Girloy medium;
+color: #FFFFFF;
+align-items: left;
+}
+.footer-nav ul{
+    display: flex;
+}
+.footer-input{
+width: 1100px;
+height: 80px;
+border-radius: 40px;
+background-color:rgba(243, 243, 243, 1);
+margin-top: 28px;
+margin-left: 122px;
+}
+.button-footer{
+    
+    width: 260px;
+    height: 80px;
+    border-radius: 40px;
+    background-color:rgba(104, 109, 224, 1);
+    margin-top: 28px;
+    margin-left: -80px;
+    color: rgba(44, 44, 84, 1);
+    font-size: 25px;
+    font-family: Girloy bold;
+    line-height: 29.3px;
+    opacity: 1;
+}
+.button-footer:hover {
+	opacity: 1;
+}
+.button-footer:active{
+    transform: translateY(2.5px);
+}
+.podpis{
+    display: flex;
+}
+#y{
+    width: 121px;
+    height: 32px;
+    margin-left: 182px;
+    font-family: Girloy medium;
+    font-size: 25px;
+    line-height: 32.5px;
+    color: rgba(201, 201, 201, 1);
+    height: 32px;
+    font-size: 25px;
+    line-height: 29.3px;
+    margin-top: 85px;
+font-family: Girloy medium;
+color: #FFFFFF;
+align-items: left;
+}

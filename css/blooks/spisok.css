@@ -1,0 +1,89 @@
+.spisok-text1 {
+    position: relative;
+    width: 527px;
+    height: 60px;
+    margin-top: 207px;
+    margin-left: 0px;
+    font-family: Girloy bold;
+    font-size: 50px;
+    line-height: 58.59px;
+    color: #FFFFFF; 
+}
+.spisok-text2 {
+    position: relative;
+    width: 144px;
+    height: 24px;
+    margin-top: 225px;
+    font-family: Girloy medium;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: right;
+    color: #FFFFFF; 
+    text-decoration: none;
+    background-image: linear-gradient( #FFF, #FFF);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.spisok-text2:hover{
+    background-size: 100% 2px;
+}
+.text-spisok{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+   
+}
+.spisok-group {
+    display: flex;
+}
+.group1 {
+    display: grid;
+}
+#rectangle1, #rectangle2, #rectangle3 {
+    width: 420px;
+    height: 655px;
+    border-radius: 20px;
+    background: #2C2C54;
+    box-shadow: 0px 0px 30px 0px  rgba(146, 146, 146, 0.2);
+    margin-top: 45px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.group1-image,.group2-image,.group3-image {
+    width: 349.5px;
+    height: 495px;
+    margin-top: -595px;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 35.25px;
+}
+.group1-button,.group2-button, .group3-button {
+    position: relative;
+    width: 331.37px;
+    height: 65px;
+    margin-top: -80px;
+    margin-left: 44.32px;
+    font-family: Girloy bold;
+    font-size: 25px;
+    line-height: 29.3px;
+    background:  rgba(104, 109, 224, 1);
+    border-radius: 5px;
+    color: rgba(44, 44, 84, 1);
+    opacity: 1;
+}
+.group1-button:hover,.group2-button:hover, .group3-button:hover{
+    opacity: 0.6;
+}
+.group1-button:active,.group2-button:active, .group3-button:active{
+    transform: translateY(2.5px);
+}
+.group2 {
+    display: grid;
+} 
+.group3 {
+display: grid;
+}

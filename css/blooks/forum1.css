@@ -1,0 +1,36 @@
+.forum-header-image {
+    height: 342px;
+  margin-top: -93px;
+    position: absolute;
+}
+.forum-header-title {
+width: 159.52px;
+height: 60px;
+font-size: 50px;
+line-height: 58.59px;
+color: #ffffff;
+margin-left: 122px;
+position: absolute;
+margin-top: 0px;
+font-family: Girloy bold;
+}
+.forum-header-text {
+width: 122.7px;
+height: 32px;
+font-size: 25px;
+line-height: 32.5px;
+color: #ffffff;
+margin-left: 1255.78px;
+position: absolute;
+margin-top: 14px;
+font-family: Girloy medium;
+text-decoration: none;
+    background-image: linear-gradient( #FFF, #FFF);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 0.2px;
+    transition: background-size .3s;
+}
+.forum-header-text:hover{
+    background-size: 100% 1px;
+}
